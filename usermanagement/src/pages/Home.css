@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+*{font-family: 'Roboto';}
+html{ margin: 0; height: 100%;}
+body{
+   height: 100%;
+    margin: 0;
+background: #151945; /* Old browsers */
+background: linear-gradient(to bottom,  #000000 0%,#000f6f 100%);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.login{
+  margin-top: 4%;
+  margin-left: 13%;
+  float: left;
+}
+h1,label{
+color: #E0E0E0;
+}
+span{
+  font-weight: 330;
+}
+
+input[type='password']:focus{
+  border-color: #1565C0;
+}
+
+.time{
+  float: right;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+.time{
+  font-size: 1.7rem;
+  color: #E0E0E0;
+  text-shadow: 0 1px 5px black;
+}
+h1{ text-shadow: 0 1px 5px black;}
+.hour{
+  font-size: 3.2rem;
+}
+.other{
+  color: #ddd;
+  font-size: 100%;
+}
+
+.others{
+    color: #ddd;
+    font-size: 90%;
+  }
+.profbtn{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 15px 7px 15px;
+}
+.logoutbtn{
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    padding: 7px 15px 7px 15px;
+}
+
+.logoutbtn:hover{
+    color: #ffffff;
+  
+    background-color: rgb(1, 1, 2);
+}
+.profbtn:hover{
+    color: #ffffff;
+  
+    background-color: rgb(1, 1, 2);
+}
